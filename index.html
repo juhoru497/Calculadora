@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Calculadora</title>
 </head>
+
 <body>
 
-    <section>
-        <output id="result" type="text">0</output>
-    </section>
     
-    <section>
-        <input id="calculation" type="text"></input>
-    </section>
 
-    <section class="opciones">
+    <section class="alinearCalculadora">
 
-        <button onclick="suma()">Sumar</button>
-        <button onclick="resta()">restar</button>
-        <button onclick="multiplicar()">multiplicar</button>
-        <button onclick="dividir()">dividir</button>
+        <div class="tenor-gif-embed" data-postid="4049106824820565488" data-share-method="host" data-aspect-ratio="1" data-width="25%"><a href="https://tenor.com/view/teto-kasane-teto-32ki-satsuki-mesmerizer-gif-4049106824820565488">Teto Kasane Teto GIF</a>from <a href="https://tenor.com/search/teto-gifs">Teto GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
-        <button onclick="ejecutar()">dividir</button>
+        <section class="calculadora">
+    
+            <section class="Pantalla">
+                <div id="pantalla">0</div>
+            </section>
+    
+            <section class="seccionBotones">
 
-        <script src="InputOutput.js"></script>
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn" onclick="simboloSuma()">+</button>
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn" onclick="simboloResta()">-</button>
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn" onclick="simboloMultiplicar()">x</button>
+                <button class="btn">0</button>
+                <button class="btn" onclick="simboloPunto()">.</button>
+                <button class="btnCalcular" onclick="calcular()">=</button>
+                <button class="btn" onclick="simboloDividir()">/</button>
+    
+                <!--
+                <script src="InputOutput.js"></script>
+                -->
 
-    </section>
+            </section>
+    
+        </section>
 
+        <div class="tenor-gif-embed" data-postid="10997332751054754524" data-share-method="host" data-aspect-ratio="1" data-width="25%"><a href="https://tenor.com/view/miku-hatsune-miku-satsuki-32ki-mesmerizer-gif-10997332751054754524">Miku Hatsune Miku GIF</a>from <a href="https://tenor.com/search/miku-gifs">Miku GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
     
 </body>
 </html>
